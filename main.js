@@ -1,5 +1,5 @@
 console.log('connection')
-
+let connection;
 let thm = Qs.parse(location.search, {
   ignoreQueryPrefix: true
 });
